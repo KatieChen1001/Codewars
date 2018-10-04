@@ -14,15 +14,16 @@ returns []
 
 **Sudo-Code**
 
-1. Start with the first element N1 in Array1
-2. Loop through Array2 and find the element that contains N1 using ".includes" method
-3. If ".includes" returns true, push N1 into results array
-4. Loop through all elements in Array1
-5. Sort result array
-6. Write a function that filters out the unique elements in an array
-7. Update the result array
+1.  Start with the first element N1 in Array1
+2.  Loop through Array2 and find the element that contains N1 using ".includes" method
+3.  If ".includes" returns true, push N1 into results array
+4.  Loop through all elements in Array1
+5.  Sort result array
+6.  Write a function that filters out the unique elements in an array
+7.  Update the result array
 
 **My Solution**
+
 ```
 function inArray(array1,array2){
   var result = [];
@@ -52,6 +53,7 @@ function inArray(array1,array2){
 ```
 
 ######Special Note / Credits:
+
 > Unique function comes from [Stackoverflow answer](https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array):
 
 **Solution 1:**
